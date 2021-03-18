@@ -19,7 +19,7 @@ app.get('/long-task', (req, res) => {
 
     }
 
-    console.timeEnd('long task finished')
+    console.timeEnd('long-task')
 
     res.send('long-task');
 });
