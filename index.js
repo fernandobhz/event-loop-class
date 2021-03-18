@@ -27,3 +27,12 @@ app.get('/long-task', (req, res) => {
 app.listen(3000, () => {
     console.log('Listening on port 3000')
 })
+
+
+/**
+ * References: 
+ *   https://www.youtube.com/watch?v=cCOL7MC4Pl0&t=1812s
+ *   https://www.youtube.com/watch?v=8aGhZQkoFbQ
+ *   
+ *  Legendas em portugues
+ */
