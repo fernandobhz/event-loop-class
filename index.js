@@ -4,11 +4,15 @@ const app = express();
 
 
 app.get('/banana', (req, res) => {
+    console.time('banana')
     res.send('banana');
+    console.timeEnd('banana')
 })
 
 app.get('/orange', (req, res) => {
+    console.time('orange')
     res.send('orange');
+    console.timeEnd('orange')
 })
 
 app.get('/long-task', (req, res) => {
